@@ -11,7 +11,9 @@ const nextConfig = {
   
   // Enable server actions (if needed)
   experimental: {
-    serverActions: true,
+    serverActions: {
+      bodySizeLimit: '2mb',
+    },
   },
   
   // Add security headers
